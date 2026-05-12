@@ -12,3 +12,13 @@ package Exercicios
 //O e-mail deve ser impresso como está
 //Mostre o número total de caracteres do nome (sem contar os espaços extras)
 //Use string templates para montar a frase final
+
+fun main(){
+    println("Digite o nome completo do aluno: ")
+    val nomeCompleto = readln()
+    println("Digite o curso o aluno está matriculado: ")
+    val curso = readln()
+    println("Digite o e-mail institucional do aluno: ")
+    val email = readln()
+
+}
