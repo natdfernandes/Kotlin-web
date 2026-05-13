@@ -17,4 +17,26 @@ fun main(){
     println(inteiros.contentToString())
     println(reais.contentToString())
     println(caracteres.contentToString())
+
+    val b = arrayOf("A", "B", "C", "D")
+    println(b.contentToString())
+    println(b[0])
+    println(b[3])
+    println(b[5])
+    println(b[-1])
+
+    b[1] = "E"
+    println(b.contentToString())
+
+    println("################################")
+
+    val c = arrayOf(1, 2, 3, 4)
+    val d = arrayOf(1, 2, 3, 4)
+
+    println(c.contentToString())
+    println(c.contentToString())
+
+    println(c === d)
+    println(c contentEquals d)
+
 }
