@@ -21,4 +21,9 @@ fun main(){
     println("Digite o e-mail institucional do aluno: ")
     val email = readln()
 
+    println(nomeCompleto.replaceFirstChar { it.uppercase() })
+    println(email)
+    println(nomeCompleto.replace(" ", "").length)
+    println("Olá, $nomeCompleto, você está matriculado(da) no curso $curso e seu email institucional é $email")
+    println("Parabéns e bem-vindo(a) aos estudos na instituição de ensino universitário!")
 }
